@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Feliz Navidad Mayo</title>
+    <% if (env !== 'development') { %>
+      <link rel="stylesheet" href="<%= assetPath('app.css') %>">
+    <% } %>
+  </head>
+
+  <body>
+    <main class="container">
+      <%- body %>
+    </main>
+    <script src="<%= assetPath('app.js') %>"></script>
+  </body>
+</html>

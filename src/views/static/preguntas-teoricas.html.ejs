@@ -1,0 +1,89 @@
+<h1>Preguntas teóricas</h1>
+
+<div class="question">
+  <h3>Pregunta 1</h3>
+  <p>¿Cuál es la diferencia entre los métodos HTTP <code>PUT</code> y <code>PATCH</code>?</p>
+  <h4>Respuesta:</h4>
+  <p>La diferencia es que el metodo HTTP PATCH permite aplicar modificaciones parciales a un recurso, mientras que el metodo HTTP PUT unicamente permite reemplazar completamente un documento.</p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 2</h3>
+  <p>Explique qué significa el status code 422 del protocolo HTTP.</p>
+  <h4>Respuesta:</h4>
+  <p>Unprocessable Entity : el codigo de estado de respuesta HTTP indica que el servidor comprende el tipo de contenido de la entidad de solicitud y que la sintaxis de la entidad de solicitud es correcta, pero no pudo procesar las instrucciones contenidas.</p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 3</h3>
+  <p>Un documento HTML escrito con etiquetas semánticas (header, article, section, etc) es correcto a diferencia de uno que no incluye este tipo de etiquetas. Comente esta afirmación presentando argumentos.</p>
+  <h4>Respuesta:</h4>
+  <p>Si es correcto, la unica diferencia entre usar o no usar etiquetas semanticas es que estas ayudan a definir la estructura del documento debido a que llevan nombres explicativos que informan de que trata su contenido,y tambien permiten que las páginas web sean mejor indexadas por los buscadores.</p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 4</h3>
+  <p>En relación a CSS, mencione 2 diferencias entre las técnicas de disposición de elementos Flexbox y Grid.</p>
+  <h4>Respuesta:</h4>
+  <p>Una diferencia es que Grid se enfoca en la colocacion precisa del contenido, mientras que Flexbox se centra en el flujo de contenido en vez de en su ubicacion, y otra diferencia es que Grid se creo para diseño bidimensional, varias filas y columnas al mismo tiempo, mientras que Flexbox se creo para diseño de una dimensión, en una fila o una columna.</p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 5</h3>
+  <p>Considere el siguiente trozo de código JavaScript.</p>
+  <code>
+    const person1 = {<br>
+      &nbsp;&nbsp;name: 'Foo',<br>
+      &nbsp;&nbsp;address: {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;street: 'Vicuña Mackenna',<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;city: 'Santiago',<br>
+        &nbsp;&nbsp;}<br>
+    };<br>
+    <br>
+    const person2 = {<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;name: 'Bar',<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;address: person1.address,<br>
+    }<br>
+    person2.address.city = 'Berlín';<br>
+    <br>
+    console.log(person1.address);
+  </code>
+  <p>¿Por qué vemos que se imprime una dirección de <code>person1</code> algo diferente a lo definido originalmente?</p>
+  <h4>Respuesta:</h4>
+  <p></p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 6</h3>
+  <p>Considerando que ambas funcionalidades de JavaScript nos permiten ejecutar código asíncrono, ¿cuál es la diferencia entre callbacks y promesas?</p>
+  <h4>Respuesta:</h4>
+  <p></p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 7</h3>
+  <p>¿A qué nos referimos cuando decimos que Node.js permite realizar operaciones I/O no-bloqueantes?</p>
+  <h4>Respuesta:</h4>
+  <p></p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 8</h3>
+  <p>¿Por qué una herramienta como ESLint puede ser útil para un proyecto de software hecho en JavaScript? Mencione al menos 2 razones.</p>
+  <h4>Respuesta:</h4>
+  <p></p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 9</h3>
+  <p>En relación a la arquitectura REST definida por Roy Fielding, ¿a qué se refiere el principio de "mensajes auto-descriptivos" dentro del principio general de "interfaz uniforme"?</p>
+  <h4>Respuesta:</h4>
+  <p></p>
+</div>
+
+<div class="question">
+  <h3>Pregunta 10</h3>
+  <p>¿Cuál es la importancia del componente "signature" dentro del formato de un JSON Web Token (JWT)?</p>
+  <h4>Respuesta:</h4>
+  <p>La importancia de la firma, es que nos permite verificar si el token es valido, que el remitente es quien dice ser, y que el mensaje no se ha modificado por el camino, de esta forma podemos aceptar o rechazar la solicitud de recursos que nos haya realizado, ya sea para obtener datos o modificarlos.</p>
+</div>
